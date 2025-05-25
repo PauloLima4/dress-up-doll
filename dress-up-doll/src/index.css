@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilizações adicionais personalizadas (opcional) */
+
+body {
+  @apply bg-pink-50 text-gray-800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  @apply transition duration-200;
+}
